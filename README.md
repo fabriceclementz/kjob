@@ -7,3 +7,22 @@
 </p>
 
 🚧 WIP
+
+## Usage
+
+1. Create a yaml file name `myjob.yaml` with the job configuration.
+
+Example:
+
+```yaml
+name: job-name
+namespace: my-ns
+image: xxx
+command: xxxx
+```
+
+2. Run the job via:
+
+```sh
+kjob -f myjob.yaml > logs.txt
+```
